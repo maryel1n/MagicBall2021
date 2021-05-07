@@ -13,7 +13,36 @@
         android:layout_gravity="center"
         android:text="@string/conoce_tu_futuro"
         android:textColor="#6633FF"
-        android:textSize="24sp"
-        android:textStyle="bold|italic" />
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:layout_margin="40dp"/>
 
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:hint="ESCRIBE TU MENSAJE"
+        android:inputType="textShortMessage"/>
+
+    <ImageButton
+        android:id="@+id/btn"
+        android:layout_width="303dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:src="@drawable/ballmage"
+        android:contentDescription="" />
+
+    <TextView
+        android:id="@+id/respuestavista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="33F3FF"
+        android:text="..."
+        android:layout_margin="60dp"/>
 </LinearLayout>
